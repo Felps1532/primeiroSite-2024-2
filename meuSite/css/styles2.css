@@ -1,0 +1,73 @@
+@charset "UTF-8";
+.form-container {
+    max-width: 750px;
+    padding: 1rem;
+}
+.registre-se {
+    color: #16697A;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.623);
+}
+.input-group {
+    width: 400px;
+    margin-bottom: 16px;
+}
+.titulo-rathergames {
+    margin-top: 5px !important;
+    color: #ffffff;
+}
+
+/* FONTAWESOME */
+.back-arrow {
+    position: absolute;
+    top: 50%;
+    left: 20px; /* Ajuste essa distância da esquerda conforme necessário */
+
+    transform: translateY(-50%); /* move a seta para cima em 50% de sua própria altura, o que a centraliza verticalmente */
+
+    z-index: 1000; /* Para garantir que a seta flutue acima de outros elementos */
+
+    color: white; /* Cor da seta */
+
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.493);
+
+    font-size: 52px;
+    
+}
+.back-arrow:hover {
+    transform: translateY(-50%) scale(1.05); /* Aumenta a seta em 20% */
+    
+}
+
+.fa-gamepad {
+    color: white;
+    font-size: 55px;
+}
+
+/* fazer ocupar 100% de altura */
+body, html {
+    height: 100%;
+    background-color: #1abc9c;
+}
+.text-body-secondary {
+    color: white;
+}
+
+/* BOTÃO DE ENVIAR */
+.btn-primary {
+    background-color: #16697A;
+    color: white;
+    border-color: #16697A;
+    font-weight: bold;
+    
+}
+.btn-primary:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+.btn-primary:hover:active {
+    background-color: #16697A;
+    color: white;
+    border-color: #16697A;
+}
